@@ -1,0 +1,40 @@
+*,::after,::before
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+div#score
+{
+    display: flex;
+    justify-content: center;
+}
+
+main
+{
+   position: relative;
+    border: 2px solid black;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.boule
+{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    
+}
